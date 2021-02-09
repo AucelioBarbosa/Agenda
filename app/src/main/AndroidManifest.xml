@@ -10,12 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Agenda">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.ListaAlunoActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.activity.FormularioAlunoActivity"/>
     </application>
 
 </manifest>
